@@ -1,0 +1,49 @@
+/* work scence google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* shared all style */
+
+* {
+  font-family: "Work Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/* primarry button style */
+
+/* header style */
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+  padding: 50px 150px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  font-size: 3rem;
+  font-weight: 700px;
+  color: #131313;
+}
+nav > ul {
+  display: flex;
+}
+nav > ul > li {
+  list-style-type: none;
+  margin-right: 40px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+nav > ul > li a {
+  text-decoration: none;
+  color: #424242;
+}
+/* banner style */
+.banner-contant {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-dicription {
+  color: #727272;
+  font-size: 2rem;
+}
