@@ -62,6 +62,37 @@ nav > ul > li a {
   width: 100%;
   margin-top: 20px;
 }
+
+/* main section style start hear */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Temeas container start from hear */
+.tames-container {
+  display: flex;
+  align-items: center;
+}
+.temes-image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.temes-contant {
+  padding: 0 70px;
+}
+.temes-title {
+  font-size: 2.8rem;
+}
+.temes-title .quick-list {
+  color: #727272;
+  font-weight: 500;
+}
+.temes-title .features {
+  color: #ff900e;
+  font-weight: 700px;
+}
 /* ----responsive style start hear---- */
 
 /* For samll device  */
