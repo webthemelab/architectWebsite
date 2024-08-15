@@ -70,28 +70,31 @@ main {
 }
 
 /* Temeas container start from hear */
-.tames-container {
+.teams-container {
   display: flex;
   align-items: center;
 }
-.temes-image-container {
+.teams-image-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
-.temes-contant {
-  padding: 0 70px;
+.teams-contant {
+  padding: 20px 70px;
 }
-.temes-title {
+.teams-title {
   font-size: 2.8rem;
 }
-.temes-title .quick-list {
+.teams-title .quick-list {
   color: #727272;
   font-weight: 500;
 }
-.temes-title .features {
+.teams-title .features {
   color: #ff900e;
   font-weight: 700px;
+}
+.teams-discription {
+  padding: 20px 0;
 }
 /* ----responsive style start hear---- */
 
@@ -100,7 +103,8 @@ main {
   header {
     padding: 20px;
   }
-  nav {
+  nav,
+  .teams-container {
     flex-direction: column;
   }
   .nav-title {
@@ -109,6 +113,9 @@ main {
   }
   nav ul {
     margin-top: 20px;
+  }
+  .teams-image-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 /* For mudiem device  */
@@ -125,5 +132,11 @@ main {
   }
   nav ul {
     margin-top: 20px;
+  }
+  .teams-image-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .teams-title {
+    font-size: 1.8rem;
   }
 }
