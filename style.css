@@ -7,6 +7,9 @@
   padding: 0;
   margin: 0;
 }
+.text-light-gray {
+  color: #727272;
+}
 /* primarry button style */
 .btn-primary {
   border-radius: 8px;
@@ -96,6 +99,29 @@ main {
 .teams-discription {
   padding: 20px 0;
 }
+/* fact section start */
+.fact {
+  margin-top: 50px;
+}
+.fact-card-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px;
+}
+.fact-card-container .card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 40px 30px;
+}
+.fact-card-container .card-title {
+  font-weight: 600;
+}
+.fact-card-container.card-stats {
+  font-size: 2.8rem;
+  color: #424242;
+}
 /* ----responsive style start hear---- */
 
 /* For samll device  */
@@ -116,6 +142,12 @@ main {
   }
   .teams-image-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .fact-card-container {
+    flex-direction: column;
+  }
+  .fact-card-container .card {
+    margin: 10px;
   }
 }
 /* For mudiem device  */
@@ -138,5 +170,12 @@ main {
   }
   .teams-title {
     font-size: 1.8rem;
+  }
+  .fact-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fact-card-container .card {
+    margin: 10px;
   }
 }
